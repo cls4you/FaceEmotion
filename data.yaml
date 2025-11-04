@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Angry', 'Fearful', 'Happy', 'Neutral', 'Sad']
+
+roboflow:
+  workspace: computer-vision-projects-zhogq
+  project: emotion-detection-y0svj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-projects-zhogq/emotion-detection-y0svj/dataset/1

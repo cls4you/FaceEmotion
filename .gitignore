@@ -1,0 +1,31 @@
+# Виртуальные окружения Python
+venv/
+.env/
+env/
+*.venv/
+.python-version
+
+# Скомпилированные файлы Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Временные файлы
+*.log
+*.tmp
+*.swp
+*.cache
+
+# Файлы кэша и временные файлы IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
